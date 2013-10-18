@@ -24,7 +24,7 @@ public class Engine
 
         Engine.game = game;
 
-        Window.init(displayWidth, displayHeight, false);
+        Window.init(displayWidth, displayHeight, true);
         Input.init();
         RenderUtil.initGraphics();
     }
