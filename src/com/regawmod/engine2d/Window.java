@@ -57,7 +57,7 @@ public class Window
     static void render()
     {
         Display.update();
-        Display.sync(60);
+        // Display.sync(60);
     }
 
     private Window()

@@ -2,16 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/sourceCode/Java/lwjgl-2.9.0/jar/lwjgl.jar">
+	<classpathentry kind="lib" path="lib/jars/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="lib/jars/lwjgl.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="http://www.lwjgl.org/javadoc/"/>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/sourceCode/Java/lwjgl-2.9.0/native/windows"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="2DGameEngine/lib/natives"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/sourceCode/Java/lwjgl-2.9.0/jar/slick-util.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="http://slick.ninjacave.com/javadoc-util/"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/slick-util.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

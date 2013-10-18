@@ -24,7 +24,7 @@ public class Engine
 
         Engine.game = game;
 
-        Window.init(displayWidth, displayHeight, true);
+        Window.init(displayWidth, displayHeight, false);
         Input.init();
         RenderUtil.initGraphics();
     }
@@ -68,7 +68,7 @@ public class Engine
                 stop();
 
             FPS.update();
-            int delta = Time.getDelta();
+            float delta = Time.getDelta();
 
             getInput();
 
@@ -86,7 +86,7 @@ public class Engine
         Input.update();
     }
 
-    private static void update(int delta)
+    private static void update(float delta)
     {
         game.update(delta);
     }

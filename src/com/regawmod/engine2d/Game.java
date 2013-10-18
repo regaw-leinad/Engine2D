@@ -1,6 +1,5 @@
 package com.regawmod.engine2d;
 
-
 /**
  * The interface any game using this engine must implement
  * 
@@ -23,7 +22,7 @@ public interface Game extends Renderable
      * 
      * @param delta The delta time between frames
      */
-    void update(int delta);
+    void update(float delta);
 
     /**
      * Render the game to the window

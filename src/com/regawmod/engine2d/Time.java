@@ -31,10 +31,10 @@ public class Time
      * 
      * @return milliseconds passed since last frame
      */
-    public static int getDelta()
+    public static float getDelta()
     {
         long time = getTime();
-        int delta = (int)(time - lastFrameMillis);
+        float delta = (time - lastFrameMillis) / 1000.0f;
         lastFrameMillis = time;
 
         return delta;
